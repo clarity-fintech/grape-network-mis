@@ -1,0 +1,176 @@
+// Moniversive Invariant Static (MIS) — deep root
+// Creator: Chandler William Ferguson
+// Letter-hash + EMBED gates 3..=6 · settlement clrty-1 / chain 1202
+// Compile: bin/misc <file>.mis --check --compact-letters
+// Title: Grape Network MIS · AccessVerify
+
+module GrapeNetworkMisAccessVerify {
+
+  embed gates 3..=6 {
+    context: "AccessVerify pack on MIS domain grape_network — CLRTY-1";
+    ai: "Index via mis_code_index + moniversive_invariant_static_ML";
+    execution: "assert_pack; assert_each; settle_clrty1";
+    capital: "Settlement clrty-1 / chain 1202 · Creator Chandler William Ferguson";
+  }
+
+  invariant letter_hash_bound: letter_hash_root != @0;
+  invariant embed_gates_present: embed_root != @0;
+  invariant deep_root_moniversive: deep_root == moniversive;
+  invariant settlement_chain: chain_id == 1202;
+  invariant settlement_network_clrty1: settlement_network == clrty_1;
+  invariant kernel_is_misc: compiler_kernel == misc;
+  invariant pack_access_verify_bound: pack_bound == true;
+  invariant catalog_backlink: mis_catalog_bound == true;
+
+  invariant access_verify_041: access_verify_041_bound == true;
+  invariant access_verify_042: access_verify_042_bound == true;
+  invariant access_verify_043: access_verify_043_bound == true;
+  invariant access_verify_044: access_verify_044_bound == true;
+  invariant access_verify_045: access_verify_045_bound == true;
+  invariant access_verify_046: access_verify_046_bound == true;
+  invariant access_verify_047: access_verify_047_bound == true;
+  invariant access_verify_048: access_verify_048_bound == true;
+  invariant access_verify_049: access_verify_049_bound == true;
+  invariant access_verify_050: access_verify_050_bound == true;
+  invariant access_verify_051: access_verify_051_bound == true;
+  invariant access_verify_052: access_verify_052_bound == true;
+  invariant access_verify_053: access_verify_053_bound == true;
+  invariant access_verify_054: access_verify_054_bound == true;
+  invariant access_verify_055: access_verify_055_bound == true;
+  invariant access_verify_056: access_verify_056_bound == true;
+  invariant access_verify_057: access_verify_057_bound == true;
+  invariant access_verify_058: access_verify_058_bound == true;
+  invariant access_verify_059: access_verify_059_bound == true;
+  invariant access_verify_060: access_verify_060_bound == true;
+
+  outcome assert_pack(payload: Bytes) {
+    require payload != @0;
+    constraint pack_bound == true;
+  }
+
+  outcome settle_clrty1(intent: Bytes) {
+    require intent != @0;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_access_verify_041(payload: Bytes) {
+    require payload != @0;
+    constraint access_verify_041_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_access_verify_042(payload: Bytes) {
+    require payload != @0;
+    constraint access_verify_042_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_access_verify_043(payload: Bytes) {
+    require payload != @0;
+    constraint access_verify_043_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_access_verify_044(payload: Bytes) {
+    require payload != @0;
+    constraint access_verify_044_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_access_verify_045(payload: Bytes) {
+    require payload != @0;
+    constraint access_verify_045_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_access_verify_046(payload: Bytes) {
+    require payload != @0;
+    constraint access_verify_046_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_access_verify_047(payload: Bytes) {
+    require payload != @0;
+    constraint access_verify_047_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_access_verify_048(payload: Bytes) {
+    require payload != @0;
+    constraint access_verify_048_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_access_verify_049(payload: Bytes) {
+    require payload != @0;
+    constraint access_verify_049_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_access_verify_050(payload: Bytes) {
+    require payload != @0;
+    constraint access_verify_050_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_access_verify_051(payload: Bytes) {
+    require payload != @0;
+    constraint access_verify_051_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_access_verify_052(payload: Bytes) {
+    require payload != @0;
+    constraint access_verify_052_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_access_verify_053(payload: Bytes) {
+    require payload != @0;
+    constraint access_verify_053_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_access_verify_054(payload: Bytes) {
+    require payload != @0;
+    constraint access_verify_054_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_access_verify_055(payload: Bytes) {
+    require payload != @0;
+    constraint access_verify_055_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_access_verify_056(payload: Bytes) {
+    require payload != @0;
+    constraint access_verify_056_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_access_verify_057(payload: Bytes) {
+    require payload != @0;
+    constraint access_verify_057_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_access_verify_058(payload: Bytes) {
+    require payload != @0;
+    constraint access_verify_058_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_access_verify_059(payload: Bytes) {
+    require payload != @0;
+    constraint access_verify_059_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_access_verify_060(payload: Bytes) {
+    require payload != @0;
+    constraint access_verify_060_bound == true;
+    constraint chain_id == 1202;
+  }
+
+}

@@ -1,0 +1,241 @@
+{
+  "schema": "clrty.mis_repo/v1",
+  "creator": "Chandler William Ferguson",
+  "org": "clarity-fintech",
+  "repo": "grape-network-mis",
+  "title": "Grape Network MIS",
+  "domain": "grape_network",
+  "deep_root": {
+    "language": "moniversive",
+    "dialect": "mis-ml",
+    "extension": ".mis",
+    "language_root": "CLRTY_SUBSTRATE/boot/moniversive_language_root.json",
+    "settlement_network": "clrty-1",
+    "settlement_chain_id": 1202,
+    "embed_gates": "3..=6",
+    "letter_hash": "sha256-rolling-typed-letter/v1",
+    "compiler": "bin/misc"
+  },
+  "kernel": "mis/kernel/GrapeNetworkMisKernel.mis",
+  "backlink_index": "mis/backlinks/MisBacklinkIndex.mis",
+  "packs": [
+    {
+      "name": "TokenGate",
+      "slug": "token_gate",
+      "band": "1..=20",
+      "module": "mis/packs/token_gate.mis",
+      "ids": [
+        "token_gate_001",
+        "token_gate_002",
+        "token_gate_003",
+        "token_gate_004",
+        "token_gate_005",
+        "token_gate_006",
+        "token_gate_007",
+        "token_gate_008",
+        "token_gate_009",
+        "token_gate_010",
+        "token_gate_011",
+        "token_gate_012",
+        "token_gate_013",
+        "token_gate_014",
+        "token_gate_015",
+        "token_gate_016",
+        "token_gate_017",
+        "token_gate_018",
+        "token_gate_019",
+        "token_gate_020"
+      ]
+    },
+    {
+      "name": "Membership",
+      "slug": "membership",
+      "band": "21..=40",
+      "module": "mis/packs/membership.mis",
+      "ids": [
+        "membership_021",
+        "membership_022",
+        "membership_023",
+        "membership_024",
+        "membership_025",
+        "membership_026",
+        "membership_027",
+        "membership_028",
+        "membership_029",
+        "membership_030",
+        "membership_031",
+        "membership_032",
+        "membership_033",
+        "membership_034",
+        "membership_035",
+        "membership_036",
+        "membership_037",
+        "membership_038",
+        "membership_039",
+        "membership_040"
+      ]
+    },
+    {
+      "name": "AccessVerify",
+      "slug": "access_verify",
+      "band": "41..=60",
+      "module": "mis/packs/access_verify.mis",
+      "ids": [
+        "access_verify_041",
+        "access_verify_042",
+        "access_verify_043",
+        "access_verify_044",
+        "access_verify_045",
+        "access_verify_046",
+        "access_verify_047",
+        "access_verify_048",
+        "access_verify_049",
+        "access_verify_050",
+        "access_verify_051",
+        "access_verify_052",
+        "access_verify_053",
+        "access_verify_054",
+        "access_verify_055",
+        "access_verify_056",
+        "access_verify_057",
+        "access_verify_058",
+        "access_verify_059",
+        "access_verify_060"
+      ]
+    },
+    {
+      "name": "CommunitySeal",
+      "slug": "community_seal",
+      "band": "61..=80",
+      "module": "mis/packs/community_seal.mis",
+      "ids": [
+        "community_seal_061",
+        "community_seal_062",
+        "community_seal_063",
+        "community_seal_064",
+        "community_seal_065",
+        "community_seal_066",
+        "community_seal_067",
+        "community_seal_068",
+        "community_seal_069",
+        "community_seal_070",
+        "community_seal_071",
+        "community_seal_072",
+        "community_seal_073",
+        "community_seal_074",
+        "community_seal_075",
+        "community_seal_076",
+        "community_seal_077",
+        "community_seal_078",
+        "community_seal_079",
+        "community_seal_080"
+      ]
+    },
+    {
+      "name": "RoleBound",
+      "slug": "role_bound",
+      "band": "81..=100",
+      "module": "mis/packs/role_bound.mis",
+      "ids": [
+        "role_bound_081",
+        "role_bound_082",
+        "role_bound_083",
+        "role_bound_084",
+        "role_bound_085",
+        "role_bound_086",
+        "role_bound_087",
+        "role_bound_088",
+        "role_bound_089",
+        "role_bound_090",
+        "role_bound_091",
+        "role_bound_092",
+        "role_bound_093",
+        "role_bound_094",
+        "role_bound_095",
+        "role_bound_096",
+        "role_bound_097",
+        "role_bound_098",
+        "role_bound_099",
+        "role_bound_100"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "LanguageRoot",
+      "path": "CLRTY_SUBSTRATE/boot/moniversive_language_root.json"
+    },
+    {
+      "name": "MisCodeIndex",
+      "path": "CLRTY_SUBSTRATE/boot/mis_code_index.json"
+    },
+    {
+      "name": "MisEcosystemRepos",
+      "path": "CLRTY_SUBSTRATE/boot/mis_ecosystem_repos_manifest.json"
+    },
+    {
+      "name": "StaticMlCatalog",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_static_ml_invariants.json"
+    },
+    {
+      "name": "MisNativeKernels",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_mis_native_kernels_776_875.json"
+    },
+    {
+      "name": "MisArchitecture",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_mis_architecture_primitives_876_975.json"
+    },
+    {
+      "name": "MisChainIntake",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_mis_chain_intake_976_1025.json"
+    },
+    {
+      "name": "GradientBand",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_gradient_invariants_201_300.json"
+    },
+    {
+      "name": "TickArchitecture",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_tick_architecture.json"
+    },
+    {
+      "name": "TickStakingGradient",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_tick_staking_gradient_propagation.json"
+    },
+    {
+      "name": "ProtocolStructures",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_protocol_structures_100.json"
+    },
+    {
+      "name": "MisKernelActiveOnly",
+      "path": "CLRTY_SUBSTRATE/boot/mis_kernel_active_only.json"
+    },
+    {
+      "name": "MisKernelSource",
+      "path": "moniversive/framework/mis_kernel.mis"
+    },
+    {
+      "name": "MisAllCodeIndex",
+      "path": "moniversive/framework/MisAllCodeIndex.mis"
+    },
+    {
+      "name": "MlKernelRepo",
+      "path": "https://github.com/clarity-fintech/moniversive_invariant_static_ML"
+    },
+    {
+      "name": "ClrtyMisKernelRepo",
+      "path": "https://github.com/clarity-fintech/CLRTY-MIS-Kernel"
+    },
+    {
+      "name": "MiscCompiler",
+      "path": "bin/misc"
+    }
+  ],
+  "clrty1": {
+    "network": "clrty-1",
+    "chain_id": 1202
+  },
+  "siblings": {
+    "static_ml": "https://github.com/clarity-fintech/moniversive_invariant_static_ML",
+    "mis_kernel": "https://github.com/clarity-fintech/CLRTY-MIS-Kernel"
+  }
+}

@@ -1,0 +1,176 @@
+// Moniversive Invariant Static (MIS) — deep root
+// Creator: Chandler William Ferguson
+// Letter-hash + EMBED gates 3..=6 · settlement clrty-1 / chain 1202
+// Compile: bin/misc <file>.mis --check --compact-letters
+// Title: Grape Network MIS · TokenGate
+
+module GrapeNetworkMisTokenGate {
+
+  embed gates 3..=6 {
+    context: "TokenGate pack on MIS domain grape_network — CLRTY-1";
+    ai: "Index via mis_code_index + moniversive_invariant_static_ML";
+    execution: "assert_pack; assert_each; settle_clrty1";
+    capital: "Settlement clrty-1 / chain 1202 · Creator Chandler William Ferguson";
+  }
+
+  invariant letter_hash_bound: letter_hash_root != @0;
+  invariant embed_gates_present: embed_root != @0;
+  invariant deep_root_moniversive: deep_root == moniversive;
+  invariant settlement_chain: chain_id == 1202;
+  invariant settlement_network_clrty1: settlement_network == clrty_1;
+  invariant kernel_is_misc: compiler_kernel == misc;
+  invariant pack_token_gate_bound: pack_bound == true;
+  invariant catalog_backlink: mis_catalog_bound == true;
+
+  invariant token_gate_001: token_gate_001_bound == true;
+  invariant token_gate_002: token_gate_002_bound == true;
+  invariant token_gate_003: token_gate_003_bound == true;
+  invariant token_gate_004: token_gate_004_bound == true;
+  invariant token_gate_005: token_gate_005_bound == true;
+  invariant token_gate_006: token_gate_006_bound == true;
+  invariant token_gate_007: token_gate_007_bound == true;
+  invariant token_gate_008: token_gate_008_bound == true;
+  invariant token_gate_009: token_gate_009_bound == true;
+  invariant token_gate_010: token_gate_010_bound == true;
+  invariant token_gate_011: token_gate_011_bound == true;
+  invariant token_gate_012: token_gate_012_bound == true;
+  invariant token_gate_013: token_gate_013_bound == true;
+  invariant token_gate_014: token_gate_014_bound == true;
+  invariant token_gate_015: token_gate_015_bound == true;
+  invariant token_gate_016: token_gate_016_bound == true;
+  invariant token_gate_017: token_gate_017_bound == true;
+  invariant token_gate_018: token_gate_018_bound == true;
+  invariant token_gate_019: token_gate_019_bound == true;
+  invariant token_gate_020: token_gate_020_bound == true;
+
+  outcome assert_pack(payload: Bytes) {
+    require payload != @0;
+    constraint pack_bound == true;
+  }
+
+  outcome settle_clrty1(intent: Bytes) {
+    require intent != @0;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_token_gate_001(payload: Bytes) {
+    require payload != @0;
+    constraint token_gate_001_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_token_gate_002(payload: Bytes) {
+    require payload != @0;
+    constraint token_gate_002_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_token_gate_003(payload: Bytes) {
+    require payload != @0;
+    constraint token_gate_003_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_token_gate_004(payload: Bytes) {
+    require payload != @0;
+    constraint token_gate_004_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_token_gate_005(payload: Bytes) {
+    require payload != @0;
+    constraint token_gate_005_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_token_gate_006(payload: Bytes) {
+    require payload != @0;
+    constraint token_gate_006_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_token_gate_007(payload: Bytes) {
+    require payload != @0;
+    constraint token_gate_007_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_token_gate_008(payload: Bytes) {
+    require payload != @0;
+    constraint token_gate_008_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_token_gate_009(payload: Bytes) {
+    require payload != @0;
+    constraint token_gate_009_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_token_gate_010(payload: Bytes) {
+    require payload != @0;
+    constraint token_gate_010_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_token_gate_011(payload: Bytes) {
+    require payload != @0;
+    constraint token_gate_011_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_token_gate_012(payload: Bytes) {
+    require payload != @0;
+    constraint token_gate_012_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_token_gate_013(payload: Bytes) {
+    require payload != @0;
+    constraint token_gate_013_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_token_gate_014(payload: Bytes) {
+    require payload != @0;
+    constraint token_gate_014_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_token_gate_015(payload: Bytes) {
+    require payload != @0;
+    constraint token_gate_015_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_token_gate_016(payload: Bytes) {
+    require payload != @0;
+    constraint token_gate_016_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_token_gate_017(payload: Bytes) {
+    require payload != @0;
+    constraint token_gate_017_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_token_gate_018(payload: Bytes) {
+    require payload != @0;
+    constraint token_gate_018_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_token_gate_019(payload: Bytes) {
+    require payload != @0;
+    constraint token_gate_019_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_token_gate_020(payload: Bytes) {
+    require payload != @0;
+    constraint token_gate_020_bound == true;
+    constraint chain_id == 1202;
+  }
+
+}

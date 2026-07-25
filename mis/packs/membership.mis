@@ -1,0 +1,176 @@
+// Moniversive Invariant Static (MIS) — deep root
+// Creator: Chandler William Ferguson
+// Letter-hash + EMBED gates 3..=6 · settlement clrty-1 / chain 1202
+// Compile: bin/misc <file>.mis --check --compact-letters
+// Title: Grape Network MIS · Membership
+
+module GrapeNetworkMisMembership {
+
+  embed gates 3..=6 {
+    context: "Membership pack on MIS domain grape_network — CLRTY-1";
+    ai: "Index via mis_code_index + moniversive_invariant_static_ML";
+    execution: "assert_pack; assert_each; settle_clrty1";
+    capital: "Settlement clrty-1 / chain 1202 · Creator Chandler William Ferguson";
+  }
+
+  invariant letter_hash_bound: letter_hash_root != @0;
+  invariant embed_gates_present: embed_root != @0;
+  invariant deep_root_moniversive: deep_root == moniversive;
+  invariant settlement_chain: chain_id == 1202;
+  invariant settlement_network_clrty1: settlement_network == clrty_1;
+  invariant kernel_is_misc: compiler_kernel == misc;
+  invariant pack_membership_bound: pack_bound == true;
+  invariant catalog_backlink: mis_catalog_bound == true;
+
+  invariant membership_021: membership_021_bound == true;
+  invariant membership_022: membership_022_bound == true;
+  invariant membership_023: membership_023_bound == true;
+  invariant membership_024: membership_024_bound == true;
+  invariant membership_025: membership_025_bound == true;
+  invariant membership_026: membership_026_bound == true;
+  invariant membership_027: membership_027_bound == true;
+  invariant membership_028: membership_028_bound == true;
+  invariant membership_029: membership_029_bound == true;
+  invariant membership_030: membership_030_bound == true;
+  invariant membership_031: membership_031_bound == true;
+  invariant membership_032: membership_032_bound == true;
+  invariant membership_033: membership_033_bound == true;
+  invariant membership_034: membership_034_bound == true;
+  invariant membership_035: membership_035_bound == true;
+  invariant membership_036: membership_036_bound == true;
+  invariant membership_037: membership_037_bound == true;
+  invariant membership_038: membership_038_bound == true;
+  invariant membership_039: membership_039_bound == true;
+  invariant membership_040: membership_040_bound == true;
+
+  outcome assert_pack(payload: Bytes) {
+    require payload != @0;
+    constraint pack_bound == true;
+  }
+
+  outcome settle_clrty1(intent: Bytes) {
+    require intent != @0;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_membership_021(payload: Bytes) {
+    require payload != @0;
+    constraint membership_021_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_membership_022(payload: Bytes) {
+    require payload != @0;
+    constraint membership_022_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_membership_023(payload: Bytes) {
+    require payload != @0;
+    constraint membership_023_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_membership_024(payload: Bytes) {
+    require payload != @0;
+    constraint membership_024_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_membership_025(payload: Bytes) {
+    require payload != @0;
+    constraint membership_025_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_membership_026(payload: Bytes) {
+    require payload != @0;
+    constraint membership_026_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_membership_027(payload: Bytes) {
+    require payload != @0;
+    constraint membership_027_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_membership_028(payload: Bytes) {
+    require payload != @0;
+    constraint membership_028_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_membership_029(payload: Bytes) {
+    require payload != @0;
+    constraint membership_029_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_membership_030(payload: Bytes) {
+    require payload != @0;
+    constraint membership_030_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_membership_031(payload: Bytes) {
+    require payload != @0;
+    constraint membership_031_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_membership_032(payload: Bytes) {
+    require payload != @0;
+    constraint membership_032_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_membership_033(payload: Bytes) {
+    require payload != @0;
+    constraint membership_033_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_membership_034(payload: Bytes) {
+    require payload != @0;
+    constraint membership_034_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_membership_035(payload: Bytes) {
+    require payload != @0;
+    constraint membership_035_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_membership_036(payload: Bytes) {
+    require payload != @0;
+    constraint membership_036_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_membership_037(payload: Bytes) {
+    require payload != @0;
+    constraint membership_037_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_membership_038(payload: Bytes) {
+    require payload != @0;
+    constraint membership_038_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_membership_039(payload: Bytes) {
+    require payload != @0;
+    constraint membership_039_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_membership_040(payload: Bytes) {
+    require payload != @0;
+    constraint membership_040_bound == true;
+    constraint chain_id == 1202;
+  }
+
+}
