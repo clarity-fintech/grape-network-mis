@@ -1,0 +1,14 @@
+{
+  "schema": "clrty.beacon_meta/v1",
+  "updated_at": "2026-07-29T03:15:03Z",
+  "repo_slug": "grape-network-mis",
+  "beacon_id": "clrty-grape-network-mis",
+  "node_name": "CLRTY-GRAPE-NETWORK-MIS",
+  "github": "https://github.com/clarity-fintech/grape-network-mis",
+  "superstructure_root": "/Users/william/$CLRTY_PROJECT",
+  "superstructure_link": "../../../CLRTY_SUBSTRATE/boot/clrty_superstructure.json",
+  "symlinks": {
+    "clrty_superstructure.json": "../../../CLRTY_SUBSTRATE/boot/clrty_superstructure.json"
+  },
+  "framework_twin": "moniversive/framework/beacons/grape-network-mis.mis"
+}
